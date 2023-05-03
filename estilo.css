@@ -1,0 +1,92 @@
+
+h5{
+    font-family: Verdana;
+}
+
+.passer{
+    border: none;
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.img-dark{
+    filter: brightness(80%);
+}
+
+
+
+p{
+    font-family: arial;
+    font-size: large;
+}
+
+.card-white{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 60px;
+    border-radius: 2%;
+    margin-bottom: 100px;
+    margin-top:100px;
+    height: 300px;
+}
+
+.card-dark{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    border-radius: 2%;
+    margin-bottom: 100px;
+    margin-top:100px;
+    height: 350px;
+}
+
+.card-map{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    border-radius: 2%;
+    margin-bottom: 100px;
+    margin-top:100px;
+}
+
+.card-contato{
+    font-size: 15px;
+    text-align: left;
+    padding-top: 60px;
+    border-radius: 2%;
+    margin-bottom: 100px;
+    margin-top:100px;
+}
+
+.title{
+    font-size: 30px;
+    text-align: center;
+    text-decoration-line:underline;
+    text-decoration-color: rgb(0, 208, 255);
+}
+
+body, html {
+    height: 100%;
+  }
+  
+.parallax {
+    background-image: url("imagens/formacoa.jpg");
+    height: 100%;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(80%);
+    height: 300px;
+  }
+
+.maps{
+    border-radius: 10%;
+}
+
+
