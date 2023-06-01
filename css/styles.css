@@ -137,7 +137,11 @@
   padding: 2em 0.3em;
   border-radius: 0;
 }
-
+#mini-banners .card img {
+  width: 6em;
+  height: 6em; 
+  align-self: center;
+}
 #mini-banners i {
   font-size: 4em;
 }
