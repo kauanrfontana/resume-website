@@ -36,7 +36,16 @@
 }
 
 #navbar .active {
-  border-bottom: 1px solid #050505;
+  position: relative;
+  /* border-bottom: 1px solid #050505; */
+}
+
+#navbar .active::before {
+  width: 60px;
+  border-top: 1px solid #050505;
+  content: '';
+  position: absolute;
+  top: 2em;
 }
 
 .navbar-brand {

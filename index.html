@@ -18,8 +18,20 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
-<body>
+<body class="scrollspy">
+    <script>
+        $(function() {
+            $('body').scrollspy({
+                target: '.navbar',
+                offset: 20 // Ajuste o valor para definir um deslocamento personalizado, se necessário
+            });
+            });
+
+        
+    </script>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
         <div class="container py-3">
@@ -41,16 +53,16 @@
             <div class="collapse navbar-collapse" id="navbar-items">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a href="#slider" class="nav-link primary-color active" aria-current="page">Skills</a>
+                        <a href="#slider" class="nav-link primary-color active" aria-current="page">Habilidades</a>
                     </li>
                     <li class="nav-item">
                         <a href="#featured-container" class="nav-link primary-color">GitHub</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link primary-color">Imóveis</a>
+                        <a href="#info-container" class="nav-link primary-color">Imóveis</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link primary-color">Contatos</a>
+                        <a href="#contact-container" class="nav-link primary-color">Contatos</a>
                     </li>
                 </ul>
             </div>
@@ -135,7 +147,6 @@
                         <div class="card-body">
                             <h5 class="card-title primary-color">Git</h5>
                             <p class="card-text secondary-color">Conhecimento avançado com certificados.</p>
-                            <a href="#" class="btn btn-dark">Saber Mais</a>
                         </div>
                     </div>
                 </div>
@@ -145,17 +156,42 @@
                         <div class="card-body">
                             <h5 class="card-title primary-color">Angular</h5>
                             <p class="card-text secondary-color">Conhecimento intermediário.</p>
-                            <a href="#" class="btn btn-dark">Saber Mais</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
                     <div class="card text-center">
-                        <i class="bi bi-lightning-charge primary-color"></i>
+                        <img src="img/javascript.svg">
                         <div class="card-body">
-                            <h5 class="card-title primary-color">Adiantamento de entregas</h5>
-                            <p class="card-text secondary-color">Conhecimento avançado com certificados.</p>
-                            <a href="#" class="btn btn-dark">Saber Mais</a>
+                            <h5 class="card-title primary-color">JavaScript</h5>
+                            <p class="card-text secondary-color">Conhecimento avançado.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <img src="img/typescript.svg">
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">HTML</h5>
+                            <p class="card-text secondary-color">Conhecimento intermediário.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <img src="img/html.svg">
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">CSS</h5>
+                            <p class="card-text secondary-color">Conhecimento avançado.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card text-center">
+                        <img src="img/css.svg">
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">Typescript</h5>
+                            <p class="card-text secondary-color">Conhecimento intermediário.</p>
                         </div>
                     </div>
                 </div>
