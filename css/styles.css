@@ -206,12 +206,12 @@
   margin-top: 2em;
 }
 
-#featured-images .col-md-4 {
+#featured-images .col-md-6 {
   position: relative;
   cursor: pointer;
 }
 
-#featured-images .col-md-4:hover > .banner-content {
+#featured-images .col-md-6:hover > .banner-content {
   opacity: 0.8;
 }
 
