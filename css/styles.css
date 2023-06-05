@@ -206,17 +206,18 @@
   margin-top: 2em;
 }
 
-#featured-images .col-md-6 {
+#featured-images .col-md-12 {
   position: relative;
   cursor: pointer;
 }
 
-#featured-images .col-md-6:hover > .banner-content {
+#featured-images .col-md-12:hover > .banner-content {
   opacity: 0.8;
 }
 
 #featured-images .banner-content {
   position: absolute;
+  padding: 2em;
   top: 0;
   left: 0;
   height: 100%;
@@ -225,6 +226,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   flex-direction: column;
   opacity: 0.6;
   transition: 0.5s;
@@ -304,9 +306,7 @@
   margin-bottom: 3em;
 }
 
-#news-container,
-#contact-container,
-#links-container {
+#contact-container {
   padding: 0;
   border: 0;
   margin-bottom: 2em;
