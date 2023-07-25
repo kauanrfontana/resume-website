@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,28 +10,34 @@
     <!-- Google Fonts - Lato -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- CSS do projeto -->
     <link rel="stylesheet" href="css/styles.css">
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
+
 <body class="scrollspy">
     <script>
-        $(function() {
+        $(function () {
             $('body').scrollspy({
                 target: '.navbar',
-                offset: 20 // Ajuste o valor para definir um deslocamento personalizado, se necessário
+                offset: 0 // Ajuste o valor para definir um deslocamento personalizado, se necessário
             });
-            });
+        });
 
-        
+
     </script>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
@@ -39,16 +46,9 @@
                 <i class="bi bi-newspaper"></i>
                 <span>Kauan Ramos Fontana</span>
             </a>
-            <button 
-            class="navbar-toggler" 
-            type="button" 
-            data-bs-toggle="collapse" 
-            data-bs-target="#navbar-items"
-            aria-controls="navbar-items"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            >
-            <i class="bi bi-list"></i>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+                aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbar-items">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -59,7 +59,7 @@
                         <a href="#featured-container" class="nav-link primary-color">GitHub</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#info-container" class="nav-link primary-color">Formação</a>
+                        <a href="#info-container" class="nav-link primary-color">Formação e Experiência</a>
                     </li>
                     <li class="nav-item">
                         <a href="#contact-container" class="nav-link primary-color">Contatos</a>
@@ -72,28 +72,12 @@
     <div class="container" id="slider-container">
         <div class="carousel slide" id="slider" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button 
-                type="button"
-                class="active" 
-                data-bs-target="#slider" 
-                data-bs-slide-to="0"
-                aria-current="true"
-                aria-label="Slide 1"
-                >
+                <button type="button" class="active" data-bs-target="#slider" data-bs-slide-to="0" aria-current="true"
+                    aria-label="Slide 1">
                 </button>
-                <button 
-                type="button"
-                data-bs-target="#slider" 
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-                >
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2">
                 </button>
-                <button 
-                type="button"
-                data-bs-target="#slider" 
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-                >
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3">
                 </button>
             </div>
             <div class="carousel-inner">
@@ -119,23 +103,13 @@
                     </div>
                 </div>
             </div>
-            <button 
-            class="carousel-control-prev" 
-            type="button"
-            data-bs-target="#slider"
-            data-bs-slide="prev"
-            >
+            <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
                 <i class="bi bi-chevron-compact-left"></i>
-            <span class="visually-hidden">Previus</span>
+                <span class="visually-hidden">Previus</span>
             </button>
-            <button 
-            class="carousel-control-next" 
-            type="button"
-            data-bs-target="#slider"
-            data-bs-slide="next"
-            >
+            <button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
                 <i class="bi bi-chevron-compact-right"></i>
-            <span class="visually-hidden">Next</span>
+                <span class="visually-hidden">Next</span>
             </button>
         </div>
         <!-- MINI BANNERS -->
@@ -207,58 +181,46 @@
             </p>
         </div>
         <div class="col-12" id="featured-images">
-                
-                <a href="https://github.com/kauanrfontana">
-                    <div class="col-12 col-md-12">
+
+            <a href="https://github.com/kauanrfontana">
+                <div class="col-12 col-md-12">
                     <img src="img/project-1.png" alt="github" class="img-fluid">
                     <div class="banner-content">
                         <p class="secondary-color">Tecnologias usadas</p>
                         <h4>HTML, CSS, JavaScript, Typescript e Angular.</h4>
                     </div>
-                    </div>
-                </a>
+                </div>
+            </a>
         </div>
     </div>
     <!-- INFO -->
     <div class="container" id="info-container">
         <div class="col-12">
-            <h2 class="title primary-color">Formação</h2>
-            <p class="subtitle secundary-color">
-                Saiba mais sobre a experiência da nossa incrível equipe
-            </p>
+            <h2 class="title primary-color"><i class="bi bi-mortarboard-fill"></i>Formação e Experiência</h2>
         </div>
-        <div class="col-12">
-            <div class="row">
-                <div class="col-12 col-md-5" id="info-banner">
-                    <img src="img/infobanner.jpg" alt="Informações da Empresa" class="img-fluid">
+        <div class="col-12 row">
+            <div class="col-12 col-md-6 bg-secondary-color info-content">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="primary-color">Técnologo em Análise e desenvolvimento de Sistemas </h3>
+                        <p class="secondary-color"><i class="bi bi-arrow-return-right"></i> Cursando</p>
+                        <p class="secondary-color"><i class="bi bi-arrow-return-right"></i> IFSC campus São José </p>
+                        <p class="secondary-color"><i class="bi bi-arrow-return-right"></i> (2023)</p>
+                    </div>
+                    <div class="col-12">
+                        <h4 class="primary-color">Técnico em Informática para a Internet</h3>
+                        <p class="secondary-color"><i class="bi bi-arrow-return-right"></i> Concluído</p>
+                        <p class="secondary-color"><i class="bi bi-arrow-return-right"></i> IFSC campus Lages </p>
+                        <p class="secondary-color"><i class="bi bi-arrow-return-right"></i> (2021 - 2022)</p>
+                    </div>
                 </div>
-                <div class="col-12 col-md-7 bg-secondary-color" id="info-content">
-                    <div class="row">
-                        <div class="col-12">
-                            <h2 class="title primary-color">Estes dados fazem a diferença</h2>
-                            <p class="subtitle secundary-color">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis odio architecto, quo possimus omnis eum, deserunt fugiat cum eos magnam quisquam laudantium mollitia hic autem aut doloribus, velit nemo? Quisquam.
-                            </p>    
-                        </div>
-                        <div class="col-12" id="info-numbers">
-                            <div class="row">
-                                <div class="col-4">
-                                    <h3 class="primary-color">18</h3>
-                                    <p class="secondary-color">Anos na construção civil</p>
-                                </div>
-                                <div class="col-4">
-                                    <h3 class="primary-color">95</h3>
-                                    <p class="secondary-color">Projetos executados</p>
-                                </div>
-                                <div class="col-4">
-                                    <h3 class="primary-color">639</h3>
-                                    <p class="secondary-color">Clientes</p>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <a href="#" class="btn btn-dark">Saber Mais</a>
-                            </div>
-                        </div>
+            </div>
+            <div class="col-12 col-md-6 bg-secondary-color info-content">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="primary-color">Auxiliar de Suporte Junior III </h3>
+                        <p class="secondary-color"><i class="bi bi-arrow-return-right"></i> Atual Trabalho</p>
+                        <p class="secondary-color"><i class="bi bi-arrow-return-right"></i> Empresa Paytech </p>
                     </div>
                 </div>
             </div>
@@ -274,10 +236,9 @@
                             <h2>Kauan Ramos Fontana</h2>
                         </div>
                         <div class="col-4" id="social-icons">
-                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/kauan-ramos-fontana-62903621a/"><i
+                                    class="bi bi-linkedin"></i></a>
                             <a href="https://www.instagram.com/kauanwz/"><i class="bi bi-instagram"></i></a>
-                            <a href="#"><i class="bi bi-youtube"></i></a>
-                            <a href="#"><i class="bi bi-twitter"></i></a>
                             <a href="https://github.com/kauanrfontana"><i class="bi bi-github"></i></a>
                         </div>
                     </div>
@@ -286,7 +247,7 @@
                 <div class="col-12" id="footer-details">
                     <div class="row">
                         <div class="col-12 col-md-4" id="contact-container">
-                            <h4>Formas de contato</h4>
+                            <h4>Contatos</h4>
                             <p class="secondary-color">(49)99985-6038</p>
                             <p class="secondary-color">kauanrfontana@gmail.com</p>
                         </div>
@@ -296,7 +257,8 @@
                 <div class="col-12" id="footer-bottom">
                     <div class="row justify-content-between">
                         <div class="col-12 col-md-3">
-                            <p class="secondary-color">Me Esforço para Realizar seus Projetos <i class="bi bi-heart"></i></p>
+                            <p class="secondary-color">Me Esforço para Realizar seus Projetos <i
+                                    class="bi bi-heart"></i></p>
                         </div>
                     </div>
                 </div>
@@ -304,4 +266,5 @@
         </div>
     </footer>
 </body>
+
 </html>

@@ -247,9 +247,9 @@
 }
 
 /* INFO */
-#info-content {
-  margin-bottom: 4em;
-  padding: 4em 1em;
+.info-content {
+  margin-bottom: 6em;
+  padding: 4em 4em;
 }
 
 #info-number {
